@@ -87,7 +87,7 @@ h6 {
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
-    background: #171717c7;
+    background: #00459c96;
     /* background-image: url(../img/bg-header.png); */
 }
 
@@ -144,7 +144,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Indie Flower", cursive;
     font-size: 15px;
     font-weight: 500;
     color: #ffff;
@@ -163,7 +164,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #ffff;
+    color: #fdc913;
 }
 
 .navbar .getstarted,
@@ -697,7 +698,7 @@ section {
     height: 100%;
     top: 0%;
     left: 0%;
-    background: url(../img/bg/banner-kontak.png);
+    background: url(../img/bg/banner-lainnya.png);
     z-index: -1;
 }
 
@@ -707,18 +708,18 @@ section {
 
 .banner-inner h3 {
     color: #fdc913;
-    font-family: "Satisfy", cursive;
-    ;
+    font-family: "Indie Flower", cursive;
     font-weight: 400;
     margin-bottom: 4px;
+    font-size: 22px;
 }
 
 .banner-inner h1 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-size: 86px;
-    font-family: "Bebas Neue", cursive;
+    font-size: 70px;
+    font-family: "Indie Flower", cursive;
     font-weight: 400;
     line-height: 92px;
     margin-bottom: 20px;
@@ -781,11 +782,11 @@ section {
 }
 
 .clients .swiper-slide {
-    background-color: #fff;
+    background-color: #bf5057;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     /* width: 200px; */
-    padding: 5px;
-    border-radius: 10px;
+    padding: 6px;
+    border-radius: 15px;
     /* height: 100%; */
 }
 
@@ -797,6 +798,7 @@ section {
     /* opacity: 0.5; */
     transition: 0.3s;
     width: 100%;
+    border-radius: 15px;
 }
 
 .clients .swiper-slide:hover img {
@@ -1456,7 +1458,7 @@ section {
     margin: -40px 0 0 40px;
     position: relative;
     z-index: 2;
-    border: 6px solid #fff;
+    border: 6px solid #c32d2f;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1468,13 +1470,13 @@ section {
 
 .testimonials .testimonial-item h4 {
     font-size: 14px;
-    color: #999;
+    color: #c32d2f;
     margin: 0 0 0 45px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #e4e6ea;
+    color: #c32d2f;
     font-size: 26px;
 }
 
@@ -2581,7 +2583,7 @@ section {
 .tentanghsa img {
     padding: 40px;
     transition: 0.3s;
-    width: 80%;
+    width: 100%;
 }
 
 .tentanghsa .feature-box img {
@@ -2937,9 +2939,10 @@ section {
 
 .visimisi .box h3 {
     font-size: 24px;
-    color: #012970;
+    color: #c32d2f;
     font-weight: 700;
     margin-bottom: 18px;
+    font-family: "Indie Flower", cursive;
 }
 
 .visimisi .box:hover img {
@@ -3086,7 +3089,7 @@ section {
 .siapa-hsa .content h3 {
     font-weight: 700;
     font-size: 32px;
-    color: #47536e;
+    color: #30519b;
 }
 
 .siapa-hsa .content p:last-child {
