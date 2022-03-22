@@ -88,7 +88,7 @@ h6 {
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 12px 0;
-    background: #00459c96;
+    background: #fff;
     /* background-image: url(../img/bg-header.png); */
 }
 
@@ -149,7 +149,7 @@ h6 {
     font-family: "Indie Flower", cursive;
     font-size: 15px;
     font-weight: 500;
-    color: #ffff;
+    color: #0059a7;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -419,7 +419,7 @@ h6 {
 }
 
 #hero h2 {
-    color: #005299;
+    color: #2c51a9;
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
@@ -430,6 +430,7 @@ h6 {
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
+    font-family: "Indie Flower", cursive;
 }
 
 #hero p {
@@ -437,6 +438,7 @@ h6 {
     animation-delay: 0.4s;
     margin: 0 auto 30px auto;
     color: #fff;
+    font-family: "Indie Flower", cursive;
 }
 
 #hero .carousel-inner .carousel-item {
