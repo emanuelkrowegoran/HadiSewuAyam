@@ -5,6 +5,7 @@
 body {
     font-family: "Barlow", sans-serif;
     color: #444444;
+    background-color: #afdaf2;
 }
 
 a {
@@ -63,7 +64,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #AFDAF2;
+    background: #fdc913;
     color: #fff;
 }
 
@@ -2565,12 +2566,17 @@ section {
 # Tentang HSA
 --------------------------------------------------------------*/
 
+.tentanghsa {
+    background-color: #fff;
+}
+
 .tentanghsa .feature-box {
-    padding: 18px 20px;
+    padding: 18px 60px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     transition: 0.3s;
     height: 100%;
     background: #ecf3ff;
+    border-radius: 10px;
 }
 
 .tentanghsa .feature-box h3 {
@@ -2651,6 +2657,10 @@ section {
 /*--------------------------------------------------------------
 # Promo
 --------------------------------------------------------------*/
+
+.promo {
+    background-color: #fff;
+}
 
 .promo .box {
     text-align: center;
@@ -2798,6 +2808,10 @@ section {
 /*--------------------------------------------------------------
 # Produk Kami
 --------------------------------------------------------------*/
+
+.produkhsa {
+    background-color: #fff;
+}
 
 .produkhsa .icon-box {
     margin-bottom: 20px;
@@ -3267,7 +3281,8 @@ a.cart-btn i {
 --------------------------------------------------------------*/
 
 .features {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    background-color: #fff;
 }
 
 .feature-item {
